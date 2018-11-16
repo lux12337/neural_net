@@ -18,8 +18,6 @@ np.random.seed(1)
 #synapses
 syn0 = 2 * np.random.random((3, 4)) - 1
 syn1 = 2 * np.random.random((4, 1)) - 1
-print syn0
-print syn1
 
 #training
 for i in xrange(60000):
